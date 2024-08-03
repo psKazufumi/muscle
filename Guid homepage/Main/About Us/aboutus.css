@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+body{
+    font-family: var(--font-family-serif);
+    --font-family-serif: "notoSerifJp", "Noto Serif JP", "游明朝", "Yu Mincho", yumincho, "Hiragino Mincho Pro", serif;
+    font-size: 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+a{
+    cursor: unset;
+}
+
+.logo{
+    text-align: center;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.logo h1{
+    font-family: "Zapfino";
+    font-style: bold;
+}
+
+.header{
+    margin: 0 auto;
+}
+
+.header ul{
+    display: flex;
+    text-align: center;
+}
+
+.header ul li{
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header ul li:hover {
+    opacity: 0.8;
+    background-color: #ddd;
+}
+
+.header ul li:first-child{
+    border-left: 1px solid #ddd;
+}
+
+.header ul li a{
+    display: block !important;
+}
+
+.header_img{
+    text-align: center;
+    display: block;
+    margin: 30px;
+    position: relative;
+}
+
+.header_img img{
+    opacity: 0.6;
+}
+
+.header_img p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    font-family: 'fantasy';
+    opacity: 0.7;
+    font-family: "Damion", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.body{
+    text-align: center;
+}
+
+.body h2{
+    margin-bottom: 15px;
+    font-size: 30px;
+    border-bottom: 1px solid;
+    display: inline-block;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.content{
+    line-height: 45px;
+    background-color: linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+}
+
+.aboutus{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.vision{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.muscles{
+    font-size: 150%;
+}
+
+.goal{
+    font-size: 150%;
+}
+ 
+.footer{
+    background-color: #ddd;
+    text-align: center !important;
+    margin-top: 30px;
+    padding: 20px;
+}

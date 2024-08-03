@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(rgb(52, 72, 92),rgb(57, 47, 143));
+    height: 1000px;
+}
+
+.Continue{
+    margin: 0 auto;
+    cursor: pointer;
+    width: 180px;
+    padding: 0;
+    border: 1px solid black;
+    position: relative;
+    line-height: 70px;
+    transition: all .3s;
+}
+.yajirushi{
+    position: absolute;
+    top: 20px;
+    left: 140px;
+    font-size: 30px;
+}
+
+.Continue:hover{
+    background-color: gray;
+    color: #fff;
+    transition: all .3s;
+}
+
+.Continue:hover .yajirushi{
+    transition: all .3s;
+    right: -70px;
+}
+
+h1{
+    padding-top: 20px;
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
